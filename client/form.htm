@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - ShoeStore</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">ShoeStore</div>
+        <nav id="navbar"></nav>
+    </header>
+    <main>
+        <section class="register">
+            <h2>Register</h2>
+            <form action="http://localhost:5000/user/add" method="post">
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username" required>
+                <br />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br />
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br />
+                <button type="submit" class="btn" value="SEND DATA">Register</button>
+                <br>
+                <button type="reset" class="btn">Reset</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 ShoeStore. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
